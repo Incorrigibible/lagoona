@@ -1,0 +1,170 @@
+/* говорит браузеру учитывать любые границы и внутренние
+ отступы в значениях, которые вы указываете в ширине и высоте элемента. */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Наследует то, что сверху */
+
+:root {
+  --custom-color: #cc9933;
+}
+
+/* Настраиваемые цвета */
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: "Muller", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  line-height: 1;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+/* Шрифты в кнопках и инпутах наследовать */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Картинки не растянутся больше 100%, высота автоматическая */
+
+ul,
+li {
+  list-style-type: none;
+}
+
+/* Убрать маркеры у списка */
+
+ul,
+h2,
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* убрать отступы которые у элементов по-дефолту */
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* Убрать у ссылок подчеркивания, менять курсор при наведении */
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Для того, чтобы скрыть что-либо.Но не от скринриддера */
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* Общий контейнер, определяющий ширину макета */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* что-то для floata */
+
+.heading-2 {
+  font-size: 40px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #333333;
+  margin-left: 45px;
+}
+
+.available-orders {
+  color: #cc9933;
+}
+
+.heading {
+  font-size: 40px;
+  margin-left: 45px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.btn {
+  width: 160px;
+  background-color: var(--custom-color);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:focus {
+  outline: thin dotted;
+}
+
+.btn:hover {
+  background-color: #e4a320;
+}
+
+/* input::placeholder {
+  padding-left: 20px;
+} */
+
+.btm-btn {
+  width: 340px;
+  min-height: 70px;
+}
+
+.link-orange {
+  color: var(--custom-color);
+  transition: color 0.3s ease;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.hidden-text {
+  font-size: 0px;
+}
+
+.text-yellow {
+  color: var(--custom-color);
+}
+
+.text-yellow:hover {
+  color: #ac8029;
+}

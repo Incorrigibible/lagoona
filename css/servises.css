@@ -1,0 +1,147 @@
+.servises {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.servises > * {
+  flex: 1 1 px;
+  margin: 10px;
+}
+
+.servises-item {
+  /* justify-content: flex-end;
+  display: flex;
+  flex-direction: column; */
+  padding: 182px 50px 32px;
+  border-radius: 12px;
+}
+
+.servises {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #333333;
+  /* justify-content: space-evenly; */
+}
+
+.heading-servises {
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.servises-item-heading {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #cc9933;
+  position: relative;
+}
+
+.link-orange:hover {
+  color: #a3761b;
+}
+
+.servises-item-heading::after {
+  display: inline-block;
+
+  background-position: right;
+  background-size: contain;
+  content: "";
+  background: url(../img/svg/right-arrow.svg) no-repeat;
+
+  background-size: 18px 18px;
+  min-height: 18px;
+  width: 18px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  opacity: 0.5;
+  transition: 0.4s ease-in-out;
+}
+
+.servises-item-heading:hover::after {
+  margin-left: 15px;
+  
+}
+
+.servises-text {
+  width: 400px;
+}
+
+.services-link {
+  color: var(--custom-color);
+}
+
+.servises-content {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 170px;
+  margin-left: 45px;
+}
+
+.servises-text {
+  line-height: 32px;
+}
+
+.servises-link {
+  color: white;
+  font-size: 22px;
+  transition: background-color 0.3s ease;
+  display: flex;
+    
+    flex-direction: column-reverse;
+    height: 100%;
+    align-items: center;
+}
+}
+
+.servises-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+.exclusive-servises-img {
+  background-image: url(../img/services/10.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 572px;
+  min-height: 325px;
+  background-color: white;
+}
+
+.rent-servises {
+  background-image: url(../img/services/15.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 572px;
+  min-height: 325px;
+  background-color: white;
+}
+
+.sauna-servises {
+  background-image: url(../img/services/12.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 572px;
+  min-height: 325px;
+  background-color: white;
+}
+
+.guard-servises {
+  background-image: url(../img/services/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 572px;
+  min-height: 325px;
+  background-color: white;
+}

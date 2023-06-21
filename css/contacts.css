@@ -1,0 +1,116 @@
+.contacting {
+  display: flex;
+  min-height: 811px;
+}
+
+.contacting-container {
+  background-color: white;
+  border-radius: 12px;
+  min-height: 750px;
+  width: 472px;
+}
+
+.contacts {
+  width: 472px;
+  min-height: 620px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 385px;
+  border-bottom: 1px solid grey;
+  margin: auto;
+  line-height: 24px;
+}
+
+.contact-item-heading {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.contact-item-schedule-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 66px;
+}
+
+.contacts-heading {
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+
+.contact-address {
+  margin-left: 85px;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #333333;
+}
+
+.contact-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  color: #cc9933;
+}
+
+.contact-email-1 {
+  margin-left: 92px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact-email-2 {
+    
+    /* display: inline-flex;
+    flex-direction: column; */
+  }
+}
+
+.contact-schedule {
+  margin-left: 69px;
+}
+
+.contact-btn {
+  width: 215px;
+  min-height: 70px;
+  margin: 45px 210px 45px 45px;
+}
+
+/* .contacts-table {
+  padding: 20px 55px 160px 45px;
+}
+
+.contacts-table-column {
+  padding-left: 140px;
+  font-family: "Muller";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.contacts {
+  background-color: white;
+  width: 472px;
+  min-height: 620px;
+}
+
+.contacts-table-item {
+  min-height: 70px;
+  border: 1px solid green;
+} */
+
+.feedback-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

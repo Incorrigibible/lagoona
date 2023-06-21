@@ -1,0 +1,130 @@
+.rooms-heading {
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.rooms-item:last-child {
+}
+
+.rooms-img-last {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 12px;
+  background-image: url(../img/housing/41.jpg);
+  flex-basis: 373px;
+  padding: 30px 41px 44px 28px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rooms-img-last:hover {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.rooms-img {
+  /* border-radius: 12px; */
+}
+
+.rooms-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rooms-item {
+  min-height: 440px;
+
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+}
+
+.star-position {
+  position: absolute;
+  left: 251px;
+  bottom: 176px;
+  display: flex;
+}
+
+.star-rating {
+  margin-left: 5px;
+  width: 14px;
+}
+
+.star-rating-empty {
+  margin-left: 5px;
+}
+
+.rooms-btn {
+  background-color: white;
+  color: var(--custom-color);
+  padding: 20px 15px;
+  border: 1px solid var(--custom-color);
+  border-radius: 12px;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.rooms-btn:active {
+  transform: translateY(1px);
+}
+
+.rooms-btn:focus {
+  outline: thin dotted;
+}
+
+.rooms-btn:hover {
+  background-color: #cc9933;
+  color: white;
+}
+
+.rooms-content {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 32px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+}
+
+.rooms-content-block {
+  padding: 40px 35px 40px 45px;
+}
+
+.rooms-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.rooms-country-name {
+  color: #999999;
+}
+
+.rooms-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.more-link {
+  padding-left: 10px;
+  font-size: 22px;
+  color: white;
+}
+
+.servises-more-link {
+  transition: background-color 0.3s ease;
+}
+
+.servises-more-link:hover {
+  background-color: black;
+  opacity: 0.9;
+}

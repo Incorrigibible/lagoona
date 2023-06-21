@@ -1,0 +1,81 @@
+.fast-order {
+  width: 518px;
+}
+
+.fast-order-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.fast-order-btn {
+  width: 159px;
+  min-height: 70px;
+}
+
+.fast-order-text {
+  flex-direction: row;
+  align-self: center;
+  margin-left: 30px;
+  color: #999999;
+}
+
+.fast-order-block {
+  display: flex;
+  width: 518px;
+  margin-top: 24px;
+}
+
+.fast-order-btn {
+  background-color: var(--custom-color);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.fast-order-btn:focus {
+  outline: thin dotted;
+}
+
+.fast-order-btn:active {
+  transform: translateY(1px);
+}
+
+.fast-order-btn:hover {
+  background-color: #e4a320;
+}
+
+.we-do {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fast-order-item {
+  width: 518px;
+  min-height: 70px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.fast-order-item::placeholder {
+  padding: 0px;
+}
+
+.fast-order-item:focus {
+  outline: none;
+}
+
+.available-orders:hover {
+  color: #e4a320;
+}
+
+.offer-link:hover {
+  color: #ac8029;
+}
